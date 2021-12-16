@@ -135,6 +135,7 @@ namespace CardsAgainstSoftwareDevelopment
             this.sentence.Size = new System.Drawing.Size(91, 20);
             this.sentence.TabIndex = 2;
             this.sentence.Text = "x goes here";
+            this.sentence.Click += new System.EventHandler(this.sentence_Click);
             // 
             // CASD
             // 

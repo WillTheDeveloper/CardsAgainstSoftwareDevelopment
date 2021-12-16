@@ -46,5 +46,10 @@ namespace CardsAgainstSoftwareDevelopment
         {
 
         }
+
+        private void sentence_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
