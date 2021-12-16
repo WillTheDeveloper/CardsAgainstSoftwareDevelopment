@@ -56,7 +56,7 @@ namespace CardsAgainstSoftwareDevelopment
             randomList.Add("My program is not working! ");
             randomList.Add("What am I supposed to do with this error? ");
 
-            //sentence.Text = new Random(randomList);
+            sentence.Text = new Random(randomList[amount]);
         }
     }
 }
