@@ -36,6 +36,7 @@ namespace CardsAgainstSoftwareDevelopment
             this.card4 = new System.Windows.Forms.Button();
             this.card5 = new System.Windows.Forms.Button();
             this.card6 = new System.Windows.Forms.Button();
+            this.title = new System.Windows.Forms.Label();
             this.cardSelector.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,16 +109,28 @@ namespace CardsAgainstSoftwareDevelopment
             this.card6.Text = "card6";
             this.card6.UseVisualStyleBackColor = true;
             // 
+            // title
+            // 
+            this.title.AutoSize = true;
+            this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.Location = new System.Drawing.Point(12, 9);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(467, 31);
+            this.title.TabIndex = 1;
+            this.title.Text = "Cards Against Software Development";
+            // 
             // CASD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.title);
             this.Controls.Add(this.cardSelector);
             this.Name = "CASD";
             this.Text = "Cards Against Software Development";
             this.cardSelector.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,6 +143,7 @@ namespace CardsAgainstSoftwareDevelopment
         private System.Windows.Forms.Button card3;
         private System.Windows.Forms.Button card2;
         private System.Windows.Forms.Button card1;
+        private System.Windows.Forms.Label title;
     }
 }
 
