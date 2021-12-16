@@ -17,6 +17,23 @@ namespace CardsAgainstSoftwareDevelopment
             InitializeComponent();
         }
 
+        public void ResetButtons()
+        {
+            card1.Visible = true;
+            card2.Visible = true;
+            card3.Visible = true;
+            card4.Visible = true;
+            card5.Visible = true;
+            card6.Visible = true;
+
+            card1.Enabled = true;
+            card2.Enabled = true;
+            card3.Enabled = true;
+            card4.Enabled = true;
+            card5.Enabled = true;
+            card6.Enabled = true;
+        }
+
         private void card1_Click(object sender, EventArgs e)
         {
             sentence.Text += card1.Text;
