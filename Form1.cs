@@ -51,6 +51,8 @@ namespace CardsAgainstSoftwareDevelopment
         {
             var randomList = new List<string> { };
 
+            int amount = randomList.Count;
+
             randomList.Add("My program is not working! ");
             randomList.Add("What am I supposed to do with this error? ");
 
