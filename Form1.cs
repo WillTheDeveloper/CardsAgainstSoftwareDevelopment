@@ -16,5 +16,35 @@ namespace CardsAgainstSoftwareDevelopment
         {
             InitializeComponent();
         }
+
+        private void card1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
