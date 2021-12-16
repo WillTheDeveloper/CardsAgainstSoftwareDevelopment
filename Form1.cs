@@ -49,7 +49,12 @@ namespace CardsAgainstSoftwareDevelopment
 
         private void sentence_Click(object sender, EventArgs e)
         {
+            var randomList = new List<string> { };
 
+            randomList.Add("My program is not working! ");
+            randomList.Add("What am I supposed to do with this error? ");
+
+            //sentence.Text = new Random(randomList);
         }
     }
 }
