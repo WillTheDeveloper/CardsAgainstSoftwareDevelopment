@@ -20,31 +20,67 @@ namespace CardsAgainstSoftwareDevelopment
         private void card1_Click(object sender, EventArgs e)
         {
             sentence.Text += card1.Text;
+            card1.Enabled = false;
+            card2.Visible = false;
+            card3.Visible = false;
+            card4.Visible = false;
+            card5.Visible = false;
+            card6.Visible = false;
         }
 
         private void card2_Click(object sender, EventArgs e)
         {
             sentence.Text += card2.Text;
+            card1.Visible = false;
+            card2.Enabled = false;
+            card3.Visible = false;
+            card4.Visible = false;
+            card5.Visible = false;
+            card6.Visible = false;
         }
 
         private void card3_Click(object sender, EventArgs e)
         {
             sentence.Text += card3.Text;
+            card1.Visible = false;
+            card2.Visible = false;
+            card3.Enabled = false;
+            card4.Visible = false;
+            card5.Visible = false;
+            card6.Visible = false;
         }
 
         private void card4_Click(object sender, EventArgs e)
         {
             sentence.Text += card4.Text;
+            card1.Visible = false;
+            card2.Visible = false;
+            card3.Visible = false;
+            card4.Enabled = false;
+            card5.Visible = false;
+            card6.Visible = false;
         }
 
         private void card5_Click(object sender, EventArgs e)
         {
             sentence.Text += card5.Text;
+            card1.Visible = false;
+            card2.Visible = false;
+            card3.Visible = false;
+            card4.Visible = false;
+            card5.Enabled = false;
+            card6.Visible = false;
         }
 
         private void card6_Click(object sender, EventArgs e)
         {
             sentence.Text += card6.Text;
+            card1.Visible = false;
+            card2.Visible = false;
+            card3.Visible = false;
+            card4.Visible = false;
+            card5.Visible = false;
+            card6.Enabled = false;
         }
 
         private void sentence_Click(object sender, EventArgs e)
