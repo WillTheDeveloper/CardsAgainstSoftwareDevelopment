@@ -1,7 +1,7 @@
 ﻿
 namespace CardsAgainstSoftwareDevelopment
 {
-    partial class Form1
+    partial class CASD
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace CardsAgainstSoftwareDevelopment
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // CASD
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "CASD";
+            this.Text = "Cards Against Software Development";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
